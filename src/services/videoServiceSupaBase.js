@@ -24,12 +24,6 @@ export function videoService() {
           console.log(response.status);
         });
     },
-
-    getVideoDetails(){
-      return  supabase.from("videos").select("*")
-      .then((response) => {
-        console.log(response.status);
-      })
     
     }
   };
