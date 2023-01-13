@@ -37,7 +37,7 @@ function ProviderWrapper(props) {
 
 
   return (
-  <ColorModeProvider initialMode={dataLocal.includes("PM") ? 'dark':'light'}>
+  <ColorModeProvider initialMode={'dark'}>
       {props.children}
   </ColorModeProvider>
   )
