@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import { StyledMenu } from "../../src/components/Menu";
 import { supabase } from "../../src/supabase";
-import { StyledVideoPage } from "./styles";
 import styled from "styled-components";
 
 const StyledVideoPage = styled.div`
