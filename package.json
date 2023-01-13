@@ -1,0 +1,21 @@
+{
+  "name": "aluratube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prismicio/client": "^6.7.3",
+    "@supabase/supabase-js": "^2.2.3",
+    "next": "^13.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-embed": "^3.6.0",
+    "styled-components": "^5.3.6"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
