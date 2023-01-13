@@ -35,7 +35,7 @@ export default function Videos({ data }) {
         >
           <iframe
             src={`https://www.youtube.com/embed/${id}`}
-            title={"videoDetails.title"}
+            title={videoDetails.title}
           ></iframe>
           <h2>{videoDetails.title}</h2>
           <span>{getDetailsData(videoDetails.created_at)}</span>
